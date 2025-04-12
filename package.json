@@ -1,0 +1,28 @@
+{
+  "name": "aihackfestback",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^0.8.0",
+    "@midnight-ntwrk/compact-runtime": "^0.7.0",
+    "@midnight-ntwrk/ledger": "^3.0.6",
+    "@midnight-ntwrk/midnight-js-contracts": "^1.0.0",
+    "@midnight-ntwrk/wallet": "^4.0.0",
+    "@midnight-ntwrk/wallet-sdk-hd": "^1.0.0",
+    "bcrypt": "^5.1.1",
+    "bip39": "^3.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "ethers": "^6.13.5",
+    "express": "^5.1.0",
+    "mongodb": "^6.15.0"
+  }
+}

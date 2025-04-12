@@ -1,0 +1,3 @@
+circuit check_hash(pub hash: Field, priv secret: Bytes[32]) {
+  assert(hash == sha256(secret));
+}
